@@ -1,0 +1,51 @@
+body{
+    width: 100%;
+    background-color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    color: aliceblue;
+    
+}
+.service_mainbodyy{
+  
+    width: 70%;
+    margin: auto;
+    height: 300px;
+}
+.service_headText{
+    color: #9E8A68;
+}
+.service_type{
+    filter: brightness(0) invert(1);
+}
+
+.service_type img{
+
+    width: 67px;
+    border-radius: 50%; 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.service_type button
+{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    text-decoration: none;
+    color: aliceblue;
+}
+.service_details
+{
+    background: white;
+    color: black;
+    height: auto;
+    width: 100%;
+
+}
+
+#serviceImg
+{
+    border-radius: 50%;
+    width: 350px;
+}
+
