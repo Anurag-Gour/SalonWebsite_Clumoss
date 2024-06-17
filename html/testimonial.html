@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials</title>
+    <link rel="stylesheet" href="../css/testimonial.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="home.html"><img src="../assets/logo.png" alt="Logo"></a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a href="#" class="book-now">Book Now</a>
+        </nav>
+    </header>
+
+    <section class="testimonials">
+        <h2>What Our Clients Say About Us</h2>
+        <div class="testimonial-slider">
+            <span class="prev" onclick="changeSlide(-1)">&#8249;</span>
+            <span class="next" onclick="changeSlide(1)">&#8250;</span>
+            <div class="testimonial-wrapper">
+                <div class="testimonial-slide">
+                    <div class="testimonial">
+                        <img src="../assets/client.png" alt="Client Photo">
+                    </div>
+                    <div class="testimonial">
+                        <img src="../assets/client.png" alt="Client Photo">
+                    </div>
+                    <div class="testimonial">
+                        <img src="../assets/client.png" alt="Client Photo">
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial">
+                        <img src="../assets/client.png" alt="Client Photo">
+                    </div>
+                    <div class="testimonial">
+                        <img src="../assets/client.png" alt="Client Photo">
+                    </div>
+                    <div class="testimonial">
+                        <img src="../assets/client.png" alt="Client Photo">
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial">
+                        <img src="../assets/client.png" alt="Client Photo">
+                    </div>
+                    <div class="testimonial">
+                        <img src="../assets/client.png" alt="Client Photo">
+                    </div>
+                    <div class="testimonial">
+                        <img src="../assets/client.png" alt="Client Photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <script src="../js/testimonial.js"></script>
+</body>
+</html>
