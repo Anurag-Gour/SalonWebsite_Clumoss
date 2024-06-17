@@ -30,8 +30,13 @@
   /* Add your styles for the right part here */
 }
 
+.home_image {
+  display: flex;
+  justify-content: center;
+}
+
 .home_image img {
-  width: 80%;
+  width: 60%;
 }
 
 .home_t1 {
@@ -79,6 +84,40 @@
   position: relative;
   text-align: center;
   text-decoration: none;
+  margin-right: 10px;
+}
+
+.home_button1 {
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  overflow: hidden;
+}
+
+.home_button1::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: inherit;
+  scale: 0;
+  z-index: -1;
+  background-color: #c89655;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.home_button1:hover::before {
+  scale: 3;
+}
+
+.home_button1:hover {
+  color: #212121;
+  scale: 1.1;
+  box-shadow: 0 0px 20px rgba(193, 163, 98, 0.4);
+}
+
+.home_button1:active {
+  scale: 1;
 }
 
 .home_button2 {
@@ -102,6 +141,34 @@
   position: relative;
   text-align: center;
   text-decoration: none;
+}
+
+.home_button2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: inherit;
+  scale: 0;
+  z-index: -1;
+  background-color: rgb(38, 28, 38) 121;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.home_button2:hover::before {
+  scale: 3;
+}
+
+.home_button2:hover {
+  color: #ffffff;
+  scale: 1.05;
+  box-shadow: 0 0px 10px rgba(255, 255, 255, 0.4);
+}
+
+.home_button2:active {
+  scale: 1;
 }
 
 .home_left_bottom {
@@ -185,7 +252,7 @@
   }
 
   .home_image img {
-    width: 80%;
+    width: 65%;
   }
 
   .home_t1 {
