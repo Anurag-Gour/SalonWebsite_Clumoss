@@ -1,26 +1,26 @@
-body{
-    color:#212121;
-    background-color: #212121;
+/* body {
+  color: #212121;
+  background-color: #212121;
+} */
+
+h5 {
+  color: white;
 }
 
-h5{
-    color: white;
+.xxxy {
+  color: rgb(179, 181, 183);
 }
 
-.xxxy{
-    color: rgb(179, 181, 183);
+.xxxy:hover {
+  color: white;
 }
 
-.xxxy:hover{
-    color: white;
+.ext {
+  text-align: center;
 }
 
-.ext{
-    text-align: center;
-}
-
-.abc{
-    margin: 0;
+.abc {
+  margin: 0;
   padding: 0;
   display: flex;
   position: absolute;
@@ -29,13 +29,13 @@ h5{
   transform: translate(-50%, -50%);
 }
 
-.mond{
-    list-style: none;
+.mond {
+  list-style: none;
   margin: 0 15px;
 }
 
-.tues{
-  position: relative; 
+.tues {
+  position: relative;
   display: block;
   width: 60px;
   height: 60px;
@@ -45,11 +45,12 @@ h5{
   border-radius: 50%;
   font-size: 30px;
   color: #666;
-  transition: .5s;
+
+  transition: 0.5s;
 }
 
 .tues::before {
-    content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -57,21 +58,21 @@ h5{
   height: 100%;
   border-radius: 50%;
   background: white;
-  transition: .5s;
-  transform: scale(.9);
+  transition: 0.5s;
+  transform: scale(0.9);
   z-index: -1;
 }
 
-.tues:hover::before{
-    transform: scale(1.1);
+.tues:hover::before {
+  transform: scale(1.1);
   box-shadow: 0 0 15px white;
 }
 
-.tues:hover{
-    color: #ffffff;
+.tues:hover {
+  color: #ffffff;
   box-shadow: 0 0 5px white;
   text-shadow: 0 0 5px white;
 }
-.sat{
-    padding-top: 30px;
+.sat {
+  padding-top: 30px;
 }

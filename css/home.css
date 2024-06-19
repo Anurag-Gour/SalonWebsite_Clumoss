@@ -173,7 +173,7 @@
 
 .home_left_bottom {
   position: absolute;
-  bottom: 0%;
+  bottom: 3%;
   left: 2%;
   font-family: "Poppins", sans-serif;
   color: #212121;
@@ -189,6 +189,12 @@
 .btm_img img {
   width: 54px;
   height: 48px;
+}
+
+.btm_text {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
 }
 
 .flex_vertical {
