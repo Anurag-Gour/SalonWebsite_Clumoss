@@ -39,6 +39,7 @@ nav ul li a {
 .book-now {
   border: 1px solid #fff;
   color: #fff;
+  background-color: grey;
   padding: 10px 60px;
   text-decoration: none;
   border-radius: 50px;
@@ -113,4 +114,5 @@ nav ul li a {
 .book-now:hover {
   background-color: #fff;
   color: black;
+  cursor: pointer;
 }

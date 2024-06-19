@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
-/* * {
+.about-page{
   background-color: #212121;
   box-sizing: border-box;
-} */
+  max-height: 100%;;
+}
+
+
 .heading {
   color: #ecd8bd;
 
@@ -50,8 +53,9 @@
   width: 250px;
   height: auto;
   float: left;
-  position: absolute;
-  top: 250px;
+  /* position: absolute; */
+  position: relative;
+  top: -473px;
   left: 100px;
 
   flex: 1;
@@ -61,8 +65,8 @@
   height: auto;
   float: right;
   flex: 3;
-  position: absolute;
-  top: 250px;
+  position: relative; 
+  top: -473px;
   right: 100px;
 }
 

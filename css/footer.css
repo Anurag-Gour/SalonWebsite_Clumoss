@@ -1,10 +1,12 @@
-/* body {
+.footer {
   color: #212121;
   background-color: #212121;
-} */
+  padding-top: 150px;
+} 
 
 h5 {
   color: white;
+  padding-left: 100px;
 }
 
 .xxxy {
@@ -20,10 +22,10 @@ h5 {
 }
 
 .abc {
-  margin: 0;
-  padding: 0;
+  margin: 55px;
+  padding-right: 0px;
   display: flex;
-  position: absolute;
+  /* position: absolute; */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -45,6 +47,7 @@ h5 {
   border-radius: 50%;
   font-size: 30px;
   color: #666;
+  
 
   transition: 0.5s;
 }
