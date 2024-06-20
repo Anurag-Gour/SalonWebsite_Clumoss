@@ -1,11 +1,11 @@
-/* body {
+.contact-us {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #333;
   color: #fff;
-} */
+}
 
 header {
   background-color: #1f1f1f;
@@ -76,7 +76,7 @@ nav ul li a {
 
 .contact-container {
   background-color: rgba(255, 255, 255, 0.9);
-  padding: 100px;
+  padding: 50px;
   border-radius: 10px;
   max-width: 600px;
   width: 100%;
