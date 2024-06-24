@@ -9,6 +9,11 @@
   padding-left: 100px;
 }
 
+.footer-contact {
+  color: white;
+  padding-left: 50px;
+}
+
 .xxxy {
   color: rgb(179, 181, 183);
 }
@@ -84,4 +89,8 @@
 .hehe{
   color: #212121;
   background-color: #212121;
+}
+
+.decor{
+  text-decoration: none;
 }
