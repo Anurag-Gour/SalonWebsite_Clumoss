@@ -1,10 +1,17 @@
-/* body {
+.footer {
   color: #212121;
   background-color: #212121;
-} */
+  padding-top: 150px;
+}
 
-h5 {
+.footer-list {
   color: white;
+  padding-left: 100px;
+}
+
+.footer-contact {
+  color: white;
+  padding-left: 50px;
 }
 
 .xxxy {
@@ -20,10 +27,10 @@ h5 {
 }
 
 .abc {
-  margin: 0;
-  padding: 0;
+  margin: 55px;
+  padding-right: 0px;
   display: flex;
-  position: absolute;
+  /* position: absolute; */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -75,4 +82,15 @@ h5 {
 }
 .sat {
   padding-top: 30px;
+  color: black;
+  
+}
+
+.hehe{
+  color: #212121;
+  background-color: #212121;
+}
+
+.decor{
+  text-decoration: none;
 }
