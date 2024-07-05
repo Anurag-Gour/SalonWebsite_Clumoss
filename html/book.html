@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Booking</title>
+    <link rel="stylesheet" href="../css/book.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Your Appointment</h1>
+        <form id="bookingForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="service">Service:</label>
+            <select id="service" name="service" required>
+                <option value="manicure">Manicure</option>
+                <option value="pedicure">Pedicure</option>
+                <option value="make-up">Make Up</option>
+                <option value="nail-art">Nail Art</option>
+                <option value="body-wrap">Body Wrap</option>
+            </select>
+            
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Time:</label>
+            <div class="time-picker">
+                <select id="hour" name="hour" required>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select>
+                <span>:</span>
+                <select id="minute" name="minute" required>
+                    <option value="00">00</option>
+                    <option value="15">15</option>
+                    <option value="30">30</option>
+                    <option value="45">45</option>
+                </select>
+                <select id="ampm" name="ampm" required>
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+            
+            <button type="submit">Book Now</button>
+        </form>
+        <div id="confirmation" class="hidden">
+            <h2>Thank you for your booking!</h2>
+            <p>We look forward to seeing you soon.</p>
+        </div>
+    </div>
+
+    <script src="../js/book.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Appointment</title>
+    <link rel="stylesheet" href="../css/app.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book a Salon Appointment</h1>
+        <form id="appointmentForm" action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="3d6321f6-6068-40a1-810b-b81646ec75bc">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="date">Appointment Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Appointment Time:</label>
+            <input type="time" id="time" name="time" required>
+            
+            <label for="service">Service:</label>
+            <select id="service" name="service" required>
+                <option value="haircut">Haircut</option>
+                <option value="coloring">Coloring</option>
+                <option value="styling">Styling</option>
+                <option value="manicure">Manicure</option>
+                <option value="pedicure">Pedicure</option>
+            </select>
+            
+            <button type="submit">Book Appointment</button>
+        </form>
+        <p id="confirmationMessage"></p>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="../js/app.js"></script> 
+</body>
+</html>
